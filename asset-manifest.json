@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/Todo/static/css/main.8e127621.chunk.css",
+    "main.css": "/Todo/static/css/main.7ec26fce.chunk.css",
     "main.js": "/Todo/static/js/main.fc5241e5.chunk.js",
     "main.js.map": "/Todo/static/js/main.fc5241e5.chunk.js.map",
     "runtime-main.js": "/Todo/static/js/runtime-main.18a8ee7f.js",
@@ -10,7 +10,7 @@
     "static/js/3.36116a91.chunk.js": "/Todo/static/js/3.36116a91.chunk.js",
     "static/js/3.36116a91.chunk.js.map": "/Todo/static/js/3.36116a91.chunk.js.map",
     "index.html": "/Todo/index.html",
-    "static/css/main.8e127621.chunk.css.map": "/Todo/static/css/main.8e127621.chunk.css.map",
+    "static/css/main.7ec26fce.chunk.css.map": "/Todo/static/css/main.7ec26fce.chunk.css.map",
     "static/js/2.3edcf026.chunk.js.LICENSE.txt": "/Todo/static/js/2.3edcf026.chunk.js.LICENSE.txt",
     "static/media/bg-desktop-dark.73e47dbb.jpg": "/Todo/static/media/bg-desktop-dark.73e47dbb.jpg",
     "static/media/bg-desktop-light.3508d620.jpg": "/Todo/static/media/bg-desktop-light.3508d620.jpg",
@@ -22,7 +22,7 @@
   "entrypoints": [
     "static/js/runtime-main.18a8ee7f.js",
     "static/js/2.3edcf026.chunk.js",
-    "static/css/main.8e127621.chunk.css",
+    "static/css/main.7ec26fce.chunk.css",
     "static/js/main.fc5241e5.chunk.js"
   ]
 }
