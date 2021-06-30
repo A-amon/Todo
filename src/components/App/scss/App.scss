@@ -1,0 +1,22 @@
+@import "../../../styles/scss/typography.scss";
+@import "../../../styles/scss/breakpoints.scss";
+
+body{
+    font-family: $font-josefin;
+}
+
+.App{
+    background-size:100%;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.todo{
+    width: 500px;
+    @include tablet-query{
+        width: 90%;
+    }
+}

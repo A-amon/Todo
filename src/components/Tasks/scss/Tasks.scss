@@ -1,0 +1,63 @@
+@import "../../../styles/scss/breakpoints.scss";
+
+.tasks{
+    &__container{
+        border-radius:5px;
+        margin-top:2rem;
+        position: relative;
+        min-height: 200px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    &__placeholder{
+        justify-content: center;
+        flex:100%;
+    }
+
+    &__footer, &__filters{
+        display: flex;
+        align-items: center;
+    }
+
+    &__footer{
+        justify-content: space-between;
+        padding:1.5rem;
+        font-size:0.8rem;
+        background-color: inherit;
+        border-radius: inherit;
+        box-shadow: inherit;
+        margin-top:auto;
+    }
+
+    &__filters{
+        @include tablet-query{
+            position: absolute;
+            width: 100%;
+            padding:inherit;
+            padding-left:0;
+            padding-right: 0;
+            top:110%;
+            left:0;
+            background-color:inherit;
+            justify-content: center;
+            border-radius: inherit;
+            font-size: 0.9rem;
+            box-shadow: inherit;
+        }
+    }
+
+    &__filters button{
+        font-weight: bold;
+    }
+
+    &__filters button.active{
+        color:hsl(220,98%,61%);
+    }
+}
+
+button{
+    background:none;
+    color:inherit;
+    font-size: inherit;
+}

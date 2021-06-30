@@ -1,0 +1,13 @@
+.task__text {
+  -webkit-box-flex: 0.9;
+      -ms-flex: 0.9;
+          flex: 0.9;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+}
+
+.task__delete {
+  margin-left: auto;
+}
+/*# sourceMappingURL=Task.css.map */

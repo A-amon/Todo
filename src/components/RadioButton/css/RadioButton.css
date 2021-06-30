@@ -1,0 +1,28 @@
+.completed__wrapper {
+  margin-right: 1rem;
+  cursor: pointer;
+}
+
+.completed__wrapper input {
+  height: 0;
+  width: 0;
+  position: absolute;
+}
+
+.completed__wrapper label {
+  position: relative;
+  height: 1.5rem;
+  width: 1.5rem;
+  display: block;
+  text-indent: -999px;
+  overflow: hidden;
+  border-radius: 50%;
+}
+
+.completed__wrapper input:checked + label {
+  background: url("../../../assets/icons/icon-check.svg"), -webkit-gradient(linear, left top, left bottom, from(#57ddff), to(#c058f3));
+  background: url("../../../assets/icons/icon-check.svg"), linear-gradient(to bottom, #57ddff, #c058f3);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+/*# sourceMappingURL=RadioButton.css.map */

@@ -1,0 +1,7 @@
+.textbox input {
+  background: none;
+  -webkit-box-flex: 0.9;
+      -ms-flex: 0.9;
+          flex: 0.9;
+}
+/*# sourceMappingURL=Textbox.css.map */

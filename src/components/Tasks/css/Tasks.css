@@ -1,0 +1,79 @@
+.tasks__container {
+  border-radius: 5px;
+  margin-top: 2rem;
+  position: relative;
+  min-height: 200px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.tasks__placeholder {
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-flex: 100%;
+      -ms-flex: 100%;
+          flex: 100%;
+}
+
+.tasks__footer, .tasks__filters {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.tasks__footer {
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 1.5rem;
+  font-size: 0.8rem;
+  background-color: inherit;
+  border-radius: inherit;
+  -webkit-box-shadow: inherit;
+          box-shadow: inherit;
+  margin-top: auto;
+}
+
+@media screen and (max-width: 768px) {
+  .tasks__filters {
+    position: absolute;
+    width: 100%;
+    padding: inherit;
+    padding-left: 0;
+    padding-right: 0;
+    top: 110%;
+    left: 0;
+    background-color: inherit;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    border-radius: inherit;
+    font-size: 0.9rem;
+    -webkit-box-shadow: inherit;
+            box-shadow: inherit;
+  }
+}
+
+.tasks__filters button {
+  font-weight: bold;
+}
+
+.tasks__filters button.active {
+  color: #3a7bfd;
+}
+
+button {
+  background: none;
+  color: inherit;
+  font-size: inherit;
+}
+/*# sourceMappingURL=Tasks.css.map */

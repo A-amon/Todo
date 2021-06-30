@@ -1,0 +1,26 @@
+
+.completed__wrapper{
+    margin-right:1rem;
+    cursor: pointer;
+    input{
+        height: 0;
+        width: 0;
+        position: absolute;
+    }
+    
+    label{
+        position: relative;
+        height: 1.5rem;
+        width: 1.5rem;
+        display: block;
+        text-indent:-999px;
+        overflow: hidden;
+        border-radius: 50%;
+    }
+
+    input:checked + label{
+        background:url("../../../assets/icons/icon-check.svg"), linear-gradient(to bottom, hsl(192,100%,67%),hsl(280,87%,65%));
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+}

@@ -1,0 +1,10 @@
+
+.task__text{
+    flex:0.9;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+}
+.task__delete{
+    margin-left: auto;
+}
