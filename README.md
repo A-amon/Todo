@@ -3,7 +3,7 @@
 <img alt="JavaScript" src="https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E"/>
 <img alt="React" src="https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB"/>
 
-Note: The tasks are only stored in redux store, and not in localStorage (So they will be erased when the page is refreshed :stuck_out_tongue_closed_eyes:)
+<strong>Note:</strong> The tasks are only stored in redux store, and not in localStorage (So they will be erased when the page is refreshed :stuck_out_tongue_closed_eyes:)
 
 ## Features
 * Switch between light/dark mode
