@@ -1,0 +1,114 @@
+.tasks {
+	padding: 0;
+	list-style: none;
+	margin: 0;
+
+	&__container {
+		display: block;
+		padding: 0;
+	}
+
+	&__tabs,
+	&__container {
+		box-shadow: 0 5px 10px rgba($c-black, 0.3);
+	}
+
+	&__footer {
+		padding: 0.5rem 1rem;
+		color: $c-dark-grayish-blue-1;
+		font-size: 0.9rem;
+		position: relative;
+	}
+
+	&__footer,
+	&__tabs {
+		display: flex;
+		align-items: center;
+		justify-content: space-between;
+	}
+
+	&__clear {
+		background-color: transparent;
+		border: none;
+		text-transform: capitalize;
+		color: inherit;
+	}
+
+	&__tabs {
+		position: absolute;
+		top: calc(100% + 2rem);
+		left: 0;
+		height: 100%;
+		width: 100%;
+		justify-content: space-between;
+		padding: inherit;
+		background-color: inherit;
+		border-radius: 5px;
+		box-sizing: border-box;
+	}
+
+	&__tab {
+		background-color: transparent;
+		border: none;
+		font-weight: $fw-bold;
+		color: inherit;
+
+		&--current {
+			color: $c-bright-blue;
+		}
+	}
+
+	&__none {
+		justify-content: center;
+	}
+
+	@include min-query($d-tablet) {
+		&__tabs {
+			position: unset;
+			width: fit-content;
+			box-shadow: none !important;
+		}
+	}
+}
+
+.app {
+	&--dark {
+		.tasks__tabs,
+		.tasks__container {
+			box-shadow: 0 5px 10px rgba($c-black, 0.3);
+		}
+
+		.tasks__clear:hover {
+			color: $c-light-grayish-blue-2;
+		}
+
+		.tasks__tab:hover {
+			color: $c-white;
+		}
+
+		.tasks__none,
+		.tasks__footer {
+			color: $c-very-dark-grayish-blue-2;
+		}
+	}
+
+	&--light {
+		.tasks__tabs,
+		.tasks__container {
+			box-shadow: 0 5px 10px rgba($c-black, 0.1);
+		}
+
+		.tasks__clear:hover {
+			color: $c-very-dark-grayish-blue-1;
+		}
+
+		.tasks__tab:hover {
+			color: $c-very-dark-grayish-blue-1;
+		}
+
+		.tasks__none,
+		.tasks__footer {
+			color: $c-dark-grayish-blue-1;
+		}
+	}
+}

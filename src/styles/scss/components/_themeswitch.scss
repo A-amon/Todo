@@ -1,0 +1,56 @@
+.theme-switch {
+	border: none;
+	&__label {
+		position: relative;
+		height: 1.5rem;
+		width: 1.5rem;
+		display: block;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		&::after {
+			content: "";
+			height: 100%;
+			width: 100%;
+			background-size: 100%;
+			background-repeat: no-repeat;
+			display: block;
+			position: absolute;
+			top: 0;
+			left: 0;
+			right: 0;
+			bottom: 0;
+			margin: auto;
+		}
+
+		&--light::after {
+			background-image: url("@assets/icons/icon-sun.svg");
+		}
+
+		&--dark::after {
+			background-image: url("@assets/icons/icon-moon.svg");
+		}
+	}
+
+	&__input {
+		opacity: 0;
+	}
+}
+
+.header .theme-switch {
+	margin-left: auto;
+}
+
+.app {
+	&--dark {
+		.theme-switch__label--dark {
+			display: none;
+		}
+	}
+
+	&--light {
+		.theme-switch__label--light {
+			display: none;
+		}
+	}
+}

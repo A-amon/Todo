@@ -1,0 +1,66 @@
+.create-input {
+	position: relative;
+
+	&__input {
+		font-size: 0.9rem;
+		background-color: transparent;
+		flex: 1;
+		border: none;
+		font-weight: $fw-bold;
+
+		&::placeholder {
+			font-weight: $fw-bold;
+		}
+	}
+
+	&__response {
+		position: absolute;
+		bottom: 90%;
+		left: 50%;
+		background-color: $c-coral;
+		padding: 0.5rem 1rem;
+		border-radius: inherit;
+		font-size: 0.8rem;
+		color: $c-white;
+		font-weight: $fw-regular;
+		display: none;
+
+		&.show {
+			display: block;
+		}
+
+		&::after {
+			content: "";
+			display: block;
+			height: 0;
+			width: 0;
+			border-top: 0.5rem solid $c-coral;
+			border-bottom: 0.5rem solid transparent;
+			border-left: 0.5rem solid $c-coral;
+			border-right: 0.5rem solid transparent;
+			position: absolute;
+			left: 0;
+			top: 90%;
+		}
+	}
+}
+
+.app {
+	&--dark {
+		.create-input__input {
+			color: $c-light-grayish-blue-2;
+			&::placeholder {
+				color: $c-dark-grayish-blue-2;
+			}
+		}
+	}
+
+	&--light {
+		.create-input__input {
+			color: $c-very-dark-grayish-blue-1;
+			&::placeholder {
+				color: $c-dark-grayish-blue-1;
+			}
+		}
+	}
+}

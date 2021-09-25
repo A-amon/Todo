@@ -1,0 +1,38 @@
+/******************
+* COLORS
+*******************/
+$c-black: hsl(0, 0%, 0%);
+$c-coral: hsl(5, 90%, 72%);
+$c-white: hsl(0, 0%, 100%);
+$c-bright-blue: hsl(220, 98%, 61%);
+$c-check-bg: linear-gradient(45deg, hsl(192, 100%, 67%), hsl(280, 87%, 65%));
+
+//LIGHT THEME
+$c-very-light-gray: hsl(0, 0%, 98%);
+$c-very-light-grayish-blue: hsl(236, 33%, 92%);
+$c-light-grayish-blue-1: hsl(233, 11%, 84%);
+$c-dark-grayish-blue-1: hsl(236, 9%, 61%);
+$c-very-dark-grayish-blue-1: hsl(235, 19%, 35%);
+
+//DARK THEME
+$c-very-dark-blue: hsl(235, 21%, 11%);
+$c-very-dark-desaturated-blue: hsl(235, 24%, 19%);
+$c-light-grayish-blue-2: hsl(234, 39%, 85%);
+$c-light-grayish-blue-3: hsl(236, 33%, 92%);
+$c-dark-grayish-blue-2: hsl(234, 11%, 52%);
+$c-very-dark-grayish-blue-2: hsl(233, 14%, 35%);
+$c-very-dark-grayish-blue-3: hsl(237, 14%, 26%);
+
+/******************
+* TYPOGRAPHY
+*******************/
+$ff-josefin: "Josefin Sans", sans-serif;
+
+$fw-regular: 400;
+$fw-bold: 700;
+
+/******************
+* DEVICE SIZES
+*******************/
+$d-tablet: 768px;
+$d-laptop: 1020px;

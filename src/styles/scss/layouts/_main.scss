@@ -1,0 +1,13 @@
+.app {
+	.main {
+		flex: 1;
+	}
+
+	&--dark .main {
+		background-color: $c-very-dark-blue;
+	}
+
+	&--light .main {
+		background-color: $c-very-light-gray;
+	}
+}

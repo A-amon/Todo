@@ -1,0 +1,20 @@
+html {
+	padding: 0;
+}
+
+body {
+	font-family: $ff-josefin;
+}
+
+button {
+	cursor: pointer;
+}
+
+.sr-only {
+	height: 1px;
+	width: 1px;
+	display: block;
+	overflow: hidden;
+	margin: 0;
+	margin-top: -1px;
+}

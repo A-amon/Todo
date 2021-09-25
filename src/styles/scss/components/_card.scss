@@ -1,0 +1,16 @@
+.card {
+	display: flex;
+	align-items: center;
+	padding: 1rem;
+	border-radius: 5px;
+}
+
+.app {
+	&--dark .card {
+		background-color: $c-very-dark-desaturated-blue;
+	}
+
+	&--light .card {
+		background-color: $c-white;
+	}
+}
